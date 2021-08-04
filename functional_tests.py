@@ -1,6 +1,7 @@
 from selenium import webdriver
 
 browser = webdriver.Firefox()
-browser.get('http://localhost:8080')
+browser.get('http://localhost:8000')
 
-assert 'Django' in browser.title
+assert 'Congratulations' in browser.title
+
