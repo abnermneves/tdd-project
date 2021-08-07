@@ -319,3 +319,15 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628303441517	geckodriver	INFO	Listening on 127.0.0.1:65301
+1628303444605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofileWNT5hE"
+1628303445446	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofileWNT5hE\\search.json.mozlz4", (void 0)))
+1628303449553	Marionette	INFO	Listening on port 52656
+1628303449993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628303450567	Marionette	INFO	Stopped listening on port 52656
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+[Parent 9392, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
