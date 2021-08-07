@@ -331,3 +331,25 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628303583043	geckodriver	INFO	Listening on 127.0.0.1:59969
+1628303586161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofile5vjVcR"
+1628303587052	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofile5vjVcR\\search.json.mozlz4", (void 0)))
+1628303591838	Marionette	INFO	Listening on port 59977
+1628303592026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1628303593729	Marionette	INFO	Stopped listening on port 59977
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628303632075	geckodriver	INFO	Listening on 127.0.0.1:56050
+1628303635181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofileM83Wv5"
+1628303635911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofileM83Wv5\\search.json.mozlz4", (void 0)))
+1628303639983	Marionette	INFO	Listening on port 56058
+1628303640035	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1628303641481	Marionette	INFO	Stopped listening on port 56058
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+[Parent 4816, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
