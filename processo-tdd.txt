@@ -1,0 +1,2 @@
+Os testes funcionais, que são mais lentos, ficam num loop externo, enquanto que os testes de unidade, que são mais rápidos, ficam num loop interno, sendo executados com mais frequência.
+Mas o processo é basicamente o mesmo para os dois tipos de teste: escrever um teste, verificar se passa ou não, fazê-lo passar e refatorar depois.
