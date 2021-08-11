@@ -830,3 +830,49 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "res
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628716830046	geckodriver	INFO	Listening on 127.0.0.1:59104
+1628716833140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofile2mBGYv"
+1628716834380	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofile2mBGYv\\search.json.mozlz4", (void 0)))
+1628716839350	Marionette	INFO	Listening on port 59112
+1628716839514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1628716840707	Marionette	INFO	Stopped listening on port 59112
+[Parent 5076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628716841799	geckodriver	INFO	Listening on 127.0.0.1:59137
+1628716844884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofilerXF3jy"
+1628716845668	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofilerXF3jy\\search.json.mozlz4", (void 0)))
+1628716849474	Marionette	INFO	Listening on port 59145
+1628716849750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628716850002	Marionette	INFO	Stopped listening on port 59145
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628716851036	geckodriver	INFO	Listening on 127.0.0.1:59167
+1628716854154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofileFpOVRb"
+1628716854892	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofileFpOVRb\\search.json.mozlz4", (void 0)))
+1628716858936	Marionette	INFO	Listening on port 59175
+1628716858989	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1628716859925	Marionette	INFO	Stopped listening on port 59175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628716861094	geckodriver	INFO	Listening on 127.0.0.1:59199
+1628716864175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BNER~1\\AppData\\Local\\Temp\\rust_mozprofiledni1i0"
+1628716864931	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\\xC1bner\\AppData\\Local\\Temp\\rust_mozprofiledni1i0\\search.json.mozlz4", (void 0)))
+1628716868920	Marionette	INFO	Listening on port 59207
+1628716869038	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1628716869963	Marionette	INFO	Stopped listening on port 59207
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
